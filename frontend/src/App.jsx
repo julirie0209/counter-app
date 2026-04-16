@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
-  const API_BASE = `${import.meta.env.VITE_API_URL}/api/counter`
+  const API_BASE = `https://counter-app-940955265887.us-west2.run.app/api/counter`
 
   const fetchCount = async () => {
     try {
